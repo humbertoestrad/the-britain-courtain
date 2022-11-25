@@ -1,0 +1,240 @@
+body{
+    background-color: #ffffff;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+p{
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header{
+    display: flex;
+    height: 125px;
+    background-image: url(premier_background.png);
+    background-repeat: no-repeat; background-size: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    width: 225px;
+    align-items: center;
+    justify-content: center;
+}    
+
+.logo_gdl{
+    width: 175px;
+}
+
+.logo_premier{
+    width: 225px;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    background-color: #37003C;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.nav{
+    display: flex;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a:hover{
+    color: #d2691e;
+}
+
+#cartas{
+    display: flex;
+    min-height: 600px;
+    background-color: #37003C;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cartas_1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#carta_1{
+    display: flex;
+    height: 300px;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.texto_barra{
+    width: 40%;
+}
+
+.img{
+    width: 60%;
+}
+
+#img_unai_emery{
+    height: 300px;
+    margin-left: 10px;
+}
+
+#carta_2{
+    display: flex;
+    height: 300px;
+    margin-top: 10px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#img_julen_lopetegui{
+    height: 300px;
+    margin-left: 10px;
+}
+
+.cartas_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-right: 20px;
+}
+
+#carta_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+#img_carta_3{
+    height: 600px;
+}
+
+footer{
+    display: flex;
+    height: 150px;
+    background-color: #37003C;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.footer{
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rs{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_rs{
+    height: 45px;
+    margin-right: 10px;
+}
+
+#udg_logo{
+    height: 120px;
+}
+
+.equipos{
+    max-height: 1000px;
+    background-color: #bd3871;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.equipos_5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.equipo{
+    display: flex;
+    background-image: url(premier_background.png);
+    height: 190px;
+    width: 190px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img_logos{
+    height: 150px;
+}
+
+.datos_equipos{
+    background-color: #bd3871;
+}
+
+.titulo_equipo{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.logo{
+    height: 160px;
+}
+
+.datos{
+    margin: 0px 20px;
+    padding-bottom: 5px;
+}
+
+.sitio_club{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.reporte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.img_reporte{
+    height: 300px;
+}
+
+.nombre_fecha{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+    margin-top: 5px;
+}
